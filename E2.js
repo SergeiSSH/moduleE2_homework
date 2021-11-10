@@ -1,4 +1,4 @@
-YouN = prompt('Введиет число:');
+let YouN = prompt('Введиет число:');
 YouN = +YouN;
 if (typeof YouN === 'number') {
     if (YouN != NaN){
