@@ -1,4 +1,4 @@
-//з.1
+//з.1_____________________________________________
 let YouN = prompt('Введиет число:');
 YouN = +YouN;
 if (typeof YouN === 'number') {
@@ -14,7 +14,7 @@ if (typeof YouN === 'number') {
 }else{
     console.log('Вы ошиблись')
 };
-//з.2
+//з.2______________________________________________
 let x = 555;
 
 if(typeof x === 'number'){
@@ -26,11 +26,12 @@ if(typeof x === 'number'){
 }else{
     console.log('Тип x не определён');
 }
-//з.3
+//з.3______________________________________________
 let string = 'Hello'
 function reverseString(str) {
-
-  return str.split("").reverse().join("");
-
+  return str.split('').reverse().join('');
 }
 console.log(reverseString(string))
+//з.4______________________________________________
+let rand = Math.round(Math.random(0,100)*(100))
+console.log(rand)
