@@ -1,3 +1,4 @@
+//з.1
 let YouN = prompt('Введиет число:');
 YouN = +YouN;
 if (typeof YouN === 'number') {
@@ -13,7 +14,7 @@ if (typeof YouN === 'number') {
 }else{
     console.log('Вы ошиблись')
 };
-
+//з.2
 let x = 555;
 
 if(typeof x === 'number'){
@@ -25,3 +26,11 @@ if(typeof x === 'number'){
 }else{
     console.log('Тип x не определён');
 }
+//з.3
+let string = 'Hello'
+function reverseString(str) {
+
+  return str.split("").reverse().join("");
+
+}
+console.log(reverseString(string))
