@@ -4,11 +4,11 @@ let odd = 0;
 let zero = 0;
 
 somenum.forEach(function(item, index, array) {
-    if (typeof item === 'number') {
-        if (item === 0) {
+    if (typeof item == 'number') {
+        if (item == 0) {
             zero += 1;
         }else{
-            if (item%2 ===0){
+            if (item%2 ==0){
                 even += 1;
             }else {
                 odd += 1;
